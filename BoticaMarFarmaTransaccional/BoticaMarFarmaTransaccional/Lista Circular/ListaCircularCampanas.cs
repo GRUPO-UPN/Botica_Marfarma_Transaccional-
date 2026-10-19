@@ -68,7 +68,7 @@ namespace BoticaMarFarmaTransaccional
 
             do
             {
-                string marca = (temp == NodoActual) ? " 👁️ [EN PANTALLA]" : "";
+                string marca = (temp == NodoActual) ? " [EN PANTALLA]" : "";
                 string destino = (temp == cola)
                     ? $"{cabeza.Dato.Codigo} (Regresa a Cabeza)"
                     : temp.Siguiente.Dato.Codigo;
