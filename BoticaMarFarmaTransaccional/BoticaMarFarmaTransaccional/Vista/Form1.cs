@@ -624,7 +624,7 @@ namespace BoticaMarFarmaTransaccional
                 DetalleVenta retirado = pilaCarrito.Pop(); // O(1)
                 if (retirado != null)
                 {
-                    MessageBox.Show($"[PILA POP O(1)]: Se anuló '{retirado.ProductoItem.Nombre}' del carrito.", "Deshacer Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show($"Se anuló '{retirado.ProductoItem.Nombre}' del carrito.", "Deshacer Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     ActualizarCarritoVisual();
                 }
                 else
