@@ -19,7 +19,7 @@ namespace BoticaMarFarmaTransaccional
             TotalRegistros = 0;
         }
 
-        // * Inserción al final en tiempo constante O(1) sin redimensionar
+        // Inserción al final en tiempo constante O(1) sin redimensionar
         public void InsertarAlFinal(TransaccionVenta transaccion)
         {
             NodoDobleTransaccion nuevo = new NodoDobleTransaccion(transaccion);
@@ -39,7 +39,7 @@ namespace BoticaMarFarmaTransaccional
             TotalRegistros++;
         }
 
-        // * Navegación bidireccional inmediata en O(1)
+        // Navegación bidireccional inmediata en O(1)
         public TransaccionVenta Retroceder()
         {
             if (NodoActual != null && NodoActual.Anterior != null)

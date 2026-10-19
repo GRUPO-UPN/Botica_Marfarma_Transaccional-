@@ -4,7 +4,7 @@ using System;
 namespace BoticaMarFarmaTransaccional.ListaSimple
 {
    
-    // * Lista Enlazada Simple para el registro cronológico general.
+    // Lista Enlazada Simple para el registro cronológico general.
     // Asigna memoria dinámica en el Heap bajo demanda e inserta en O(1).
    
     public class ListaSimpleTransacciones
